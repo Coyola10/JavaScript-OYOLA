@@ -1,3 +1,17 @@
+function validarPass(pass) {
+    let clave = "5125";
+    return pass === clave
+};
+
+
+function validarName(name) {
+    if (name != "" && name === "Constanza" || name === "CONSTANZA") {
+        return true
+    } else {
+        return false
+    }
+}
+
 //Da la bienvenida al cliente
 let ingresaNombre = prompt('Ingrese su nombre')
 if (validarName(ingresaNombre)) {
@@ -52,19 +66,7 @@ if (validarName(ingresaNombre)) {
     alert("Error, Por favor ingresar nuevamente su nombre");
 }
 
-function validarPass(pass) {
-    let clave = "5125";
-    return pass === clave
-};
 
-
-function validarName(name) {
-    if (name != "" && name === "Constanza" || name === "CONSTANZA") {
-        return true
-    } else {
-        return false
-    }
-}
 
 
 
