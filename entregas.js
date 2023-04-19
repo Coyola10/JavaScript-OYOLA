@@ -4,8 +4,8 @@
 // }
 
 const usuarios = [
-    {id:1,usr_name:'Coyola',mail:'oyolaconi04@gmail.com',pass:'5125'},
-    {id:1,usr_name:'Gmoreno',mail:'gonzamoreno21@gmail.com',pass:'G555'}
+    {id:1,usr_name:'Coyola',mail:'cotyoyola@gmail.com',pass:'5125'},
+    {id:1,usr_name:'Gmoreno',mail:'mmoreno@gmail.com',pass:'G555'}
 ]
 
 function login (){
