@@ -122,6 +122,9 @@ if (contenedorCarrito) {
 
 const precioTotal = document.querySelector("#precioTotal");
 
-precioTotal.textContent = carrito.reduce((acc, prod) => acc + prod.cantidad * prod.precio, 0 )
-console.log(precioTotal)
+if (precioTotal){
+    precioTotal.textContent = carrito.reduce((acc, prod) => acc + prod.cantidad * prod.precio, 0 )
+    console.log(precioTotal)
+}
+
 
