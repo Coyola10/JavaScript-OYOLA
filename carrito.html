@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body onload='isLogged()'>
+
+    <div id="Logeo">
+        <nav class="navbar navbar-expand-lg nav_co">
+            <div class="container-fluid">
+                <a class="navbar-brand"><img class="grid-img"
+                        src="https://i.pinimg.com/736x/8b/9f/c3/8b9fc3ffcf997de42e29297374d975b0.jpg" alt=""
+                        class="titulo__logo"></a>
+                <div>
+                    <h1 class="titulo">Amelie</h1>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                        <li class="nav-item">
+                            <a style="color: white;" class="nav-link active menu" aria-current="page"
+                                href="./inicio.html">INICIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a style="color: white;" class="nav-link active menu" aria-current="page"
+                                href="./Productos.html">PRODUCTOS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a style="color: white;" class="nav-link active menu" aria-current="page"
+                                href="./contacto.html">CONTACTO</a>
+                        </li>
+                    </ul>
+                </div>
+                <a class="navbar-brand" href=""><img class="grid-img"
+                        src="https://thumbs.dreamstime.com/b/carro-de-compras-con-icono-del-globo-terr%C3%A1queo-aislado-en-fondo-negro-logotipo-vectorial-simple-162466960.jpg"
+                        alt="" class="titulo__logo"></a>
+            </div>
+        </nav>
+    </div>
+
+    <main>
+        <div class="row mt -5" id="contenedorCarrito"></div>
+        <div class="precios">
+            <span>El precio total es: $</span><p id="precioTotal"></p>
+        </div>
+        
+    </main>
+    <script src="entregas.js"></script>
+</body>
+
+</html>

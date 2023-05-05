@@ -16,6 +16,7 @@
     height: 100vh;
     display: grid;
     place-items: center;
+    padding: 100px;
 }
 .form-container {
     display: grid;
@@ -59,3 +60,43 @@
     font-size: var(--md);
     margin-top: 20px;
 }
+
+* {
+    margin: 0px auto;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+.nav_co {
+    background-color: #000000;
+}
+
+.nav_col {
+    color: white;
+}
+
+.grid-img {
+    border-radius: 5px;
+    float: left;
+    width: 70px;
+    height: 70px;
+    display: flex;
+}
+
+.titulo{
+    color: white;
+}
+
+.precios{
+    text-align: center;
+    padding: 50px;
+    background-color: #000000;
+    color: white;
+    border-radius: 5px;
+    
+}
+
+
+

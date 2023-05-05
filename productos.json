@@ -1,0 +1,58 @@
+[
+    {
+       "id":1,
+       "nombre":"REMERA OFFLINE",
+       "cantidad":1,
+       "precio":2800,
+       "img":"https://d3ugyf2ht6aenh.cloudfront.net/stores/001/141/169/products/whatsapp-image-2023-04-06-at-17-56-321-4bcd2cedd2bdecd91416808189922268-480-0.webp"
+    },
+    {
+       "id":2,
+       "nombre":"MUSCULOSA SIRI",
+       "cantidad":1,
+       "precio":2580,
+       "img":"https://d3ugyf2ht6aenh.cloudfront.net/stores/001/141/169/products/whatsapp-image-2023-04-08-at-17-45-19-11-5256538eb0c63cf82d16809877511393-480-0.webp"
+    },
+    {
+       "id":3,
+       "nombre":"PUPERA PETTY",
+       "cantidad":1,
+       "precio":3320,
+       "img":"https://d3ugyf2ht6aenh.cloudfront.net/stores/001/141/169/products/whatsapp-image-2023-04-05-at-17-33-38-11-6e9c1918fe57dfa7a816807280621147-480-0.webp"
+    },
+    {
+       "id":4,
+       "nombre":"REMERA HOPEGIRL",
+       "cantidad":1,
+       "precio":2850,
+       "img":"https://d3ugyf2ht6aenh.cloudfront.net/stores/001/141/169/products/whatsapp-image-2023-03-31-at-17-05-48-11-ef42bd637a4c280d2316802996425767-480-0.webp"
+    },
+    {
+       "id":5,
+       "nombre":"REMERA BROOKLYN",
+       "cantidad":1,
+       "precio":2450,
+       "img":"https://d3ugyf2ht6aenh.cloudfront.net/stores/001/141/169/products/whatsapp-image-2023-03-21-at-17-29-54-21-5f4a9f74f9dd3d86cc16794323693925-480-0.jpeg"
+    },
+    {
+       "id":6,
+       "nombre":"REMERA DRAGON",
+       "cantidad":1,
+       "precio":2800,
+       "img":"https://d3ugyf2ht6aenh.cloudfront.net/stores/001/141/169/products/whatsapp-image-2023-03-17-at-17-38-19-11-3e8dda6dc48cdc404516790864949097-480-0.webp"
+    },
+    {
+       "id":7,
+       "nombre":"REMERON LISO",
+       "cantidad":1,
+       "precio":3400,
+       "img":"https://d3ugyf2ht6aenh.cloudfront.net/stores/001/141/169/products/whatsapp-image-2023-03-15-at-17-06-49-11-f2986a05c86fb7192116789135638072-480-0.webp"
+    },
+    {
+       "id":8,
+       "nombre":"TOP LYCRA JAZ",
+       "cantidad":1,
+       "precio":3990,
+       "img":"https://d3ugyf2ht6aenh.cloudfront.net/stores/001/141/169/products/whatsapp-image-2023-03-29-at-17-25-58-21-5e57ff8620a9db0be416801233737834-480-0.webp"
+    }
+ ]
